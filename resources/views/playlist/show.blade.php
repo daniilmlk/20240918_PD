@@ -1,6 +1,7 @@
 <x-app-layout>
     <div class="w-full rounded overflow-hidden shadow-lg p-4 bg-white mb-4">
             <div class="flex justify-between">
+                
                 <div>       
                     <a class="font-bold text-xl mb-2" href="{{ route('playlist.show', $playlist->id) }}">
                         {{ $playlist->name }}

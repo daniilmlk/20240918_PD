@@ -10,7 +10,7 @@ class SongController extends Controller
     
     public function index()
     {
-        $songs = Song::limit(2);
+        $songs = Song::all();
         return view('song.index', compact('songs'));
     }
 
